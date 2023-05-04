@@ -1,0 +1,73 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: #f5ede4;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.main {
+    color: rgb(181, 114, 13, 1);
+    font-weight: bolder;
+}
+
+.header {
+    text-align: center;
+}
+
+.button {
+    border-radius: 30px;
+    background-color: bisque;
+}
+
+.changeBackground {
+    border-radius: 30px;
+    background-color: bisque;
+}
+
+.dark {
+    background-color: bisque;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.caption {
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.tableCell {
+    border: 3px solid black;
+    font-weight: normal;
+    max-width: 80%;
+    padding: 10px;
+
+}
+
+.tableHeader {
+    font-weight: bolder;
+    background-color: rgb(181, 114, 13, 1);
+}
+
+.tableRow:nth-child(even) {
+    background-color: rgb(181 114 13 / 26%);
+
+}
+
+.tableRow:hover {
+    background-color: rgb(181 114 13 / 10%);
+}
