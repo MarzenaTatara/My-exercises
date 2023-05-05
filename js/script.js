@@ -13,12 +13,12 @@ button.addEventListener("click", () => {
 
 changeBackground.addEventListener("click", () => {
 
-    if (changeBackground.innerText === "Włącz jasny motyw") {
-        changeBackground.innerText = "Włącz ciemny motyw";
-        mainContener.classList.toggle("jasne");
-    } else if (changeBackground.innerText === "Włącz ciemny motyw") {
+    if (changeBackground.innerText === "Włącz ciemny motyw") {
         changeBackground.innerText = "Włącz jasny motyw";
         mainContener.classList.toggle("dark");
+    } else if (changeBackground.innerText === "Włącz jasny motyw") {
+        changeBackground.innerText = "Włącz ciemny motyw";
+        mainContener.classList.toggle("jasne");
     }
 });
 
