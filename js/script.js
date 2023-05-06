@@ -22,3 +22,9 @@ changeBackground.addEventListener("click", () => {
     }
 });
 
+let number1 = 11;
+let number2 = 10;
+
+let message = number1 > number2 ? "number1 jest większe" : "number1 nie jest większe";
+
+console.log(message);
