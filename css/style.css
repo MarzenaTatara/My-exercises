@@ -71,19 +71,3 @@ html {
 .tableRow:hover {
     background-color: rgb(181 114 13 / 10%);
 }
-
-.powrot {
-    border-radius: 30px;
-    background-color: bisque;
-    margin-left: 200px;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-.color {
-    background-color: azure;
-}
-
-.footer {
-    border: 10px rgb(181 114 13 / 26%);
-}
