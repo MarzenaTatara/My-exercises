@@ -22,8 +22,24 @@ changeBackground.addEventListener("click", () => {
     }
 });
 
+let tekst = "tekst"
 
+if (tekst) {
+    console.log("Tekst nie jest pusty")
+}
 
+let liczba = 5;
 
+if (liczba) {
+    console.log("Liczba nie jest zerem");
+}
+
+function double(number) {
+    return number * 2;
+}
+
+let myNumber = 3;
+
+console.log(double(myNumber));
 
 
